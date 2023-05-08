@@ -31,11 +31,12 @@ En esta sección podréis subir o enlazar vuestra vídeo presentación. Tenéis 
 
 1.      Una vez creado el repositorio en vuestro fichero README.md, hacéis Click en el icono lápiz.
 
+![Screenshot 2023-05-08 at 11 53 05](https://user-images.githubusercontent.com/28776392/236794134-37b49eaf-b091-4e9c-a0d1-759f89679efc.png)
 
 
 2.      Y en la parte inferior de la ventana podréis hacer Click y subir ficheros con un tamaño máximo de 10MB.
 
-
+![Screenshot 2023-05-08 at 11 53 14](https://user-images.githubusercontent.com/28776392/236794175-b6231532-6c78-428c-a5be-2781430053b9.png)
 
 3.      Una vez se ha subido el vídeo os aparecerá en el fichero README.md. Si excedéis el tamaño permitido (10MB) podéis referencia un enlace de Youtube para que el jurado pueda valorar vuestra presentación.
 
