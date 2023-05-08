@@ -27,7 +27,7 @@ Una visión general de:
 
 ## Demo Vídeo
 
-En esta sección podréis subir o enlazar vuestra vídeo presentación. Tenéis dos opciones, 1/incluir un enlace de YouTube donde tengáis la presentación, 2/subir un fichero directamente a vuestro repositorio. A continuación, os mostramos los pasos para subir el vídeo:
+En esta sección podréis subir o enlazar vuestra vídeo presentación. Tenéis dos opciones, **1/** incluir un enlace de YouTube donde tengáis la presentación, **2/** subir un fichero directamente a vuestro repositorio. A continuación, os mostramos los pasos para subir el vídeo:
 
 1.      Una vez creado el repositorio en vuestro fichero README.md, hacéis Click en el icono lápiz.
 
