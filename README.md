@@ -14,7 +14,7 @@ Mejor de Mira es una aplicación móvil para Android que ayuda a las personas pe
 
 ## Descripción Técnica
 
-La aplicacion de móvil "Mejor de Mira" fue programada en el lenguaje Dart usando el SDK de Flutter.
+La aplicación móvil "Mejor de Mira" fue programada en el lenguaje Dart usando el SDK de Flutter.
 
 Utilizamos varios servicios de AWS para facilitar el proceso:
 
