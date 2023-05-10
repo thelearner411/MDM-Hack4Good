@@ -1,48 +1,43 @@
 # Hackathon For Good: La Región de AWS en España al Servicio de la Sociedad
 
-Los participantes del Hackathon tendrán que hacer un fork de este repositorio y crear un repositorio público en GitHub con su propio nombre de usuario (un repositorio único por cada equipo).
-
-A continuación, os mostraremos en este README.md las diferentes secciones que deberán completarse, resaltando los puntos indicados para la solución/implementación. Por favor, sentiros libres de crear más subsecciones si fuese necesario. La idea es comprender qué componentes habéis utilizado y cuál es la esencia de vuestra propuesta.
+# Mejor de Mira - MDM
 
 ## Descripción del Proyecto
 
-Una breve descripción de:
-¿Qué problema estamos tratando de resolver? Deberéis indicar qué reto habéis elegido: ONCE, Cruz Roja , Acciona y qué problemática estáis tratando de resolver.
-¿Cuál es la solución propuesta? En un máximo de 200 palabras, indicarnos los aspectos más importantes de vuestra solución y qué la hace única.  
-Descripción de la Solución
+Mejor de Mira es una aplicación móvil para Android que ayuda a las personas personas con discapacidad visual a navegar por los supermercados con la asistencia de servicios de voz.
 
-En esta sección podéis realizar una descripción más detallada de vuestra aplicación/solución, indicando el caso de uso, los pros y contras de vuestra implementación, etc.
+<img src="https://github.com/thelearner411/MDM/blob/main/mas_de_mira/assets/mejor-de-mira-screen.png" alt="Mejor de Mira Screen" style="display: block; margin: auto;"/>
 
 ## Diagrama de Arquitectura
 
-Adjuntar una imagen del diagrama de arquitectura de la solución.
+<img src="https://github.com/thelearner411/MDM-Hack4Good/blob/dev/assets/MDM-arquitectura.png" alt="Diagrama de Arquitectura" style="display: block; margin: auto;"/>
 
 ## Descripción Técnica
 
-Una visión general de:
+La aplicacion de móvil "Mejor de Mira" fue programada en el lenguaje Dart usando el SDK de Flutter.
 
-**¿Qué tipo de arquitectura habéis planteado?** Por lo general, las arquitecturas modernas de aplicaciones suelen utilizar microservicios y APIs para conectar los servicios, eso no quiere decir que nos podemos encontrar con arquitecturas de N-capas, arquitecturas monolíticas, de microservicios o basadas en eventos. Dependerá de vuestro caso de uso, pero nos gustaría conocer cuál ha sido vuestra elección.
+Utilizamos varios servicios de AWS para facilitar el proceso:
 
-**¿Qué tecnologías AWS se han utilizado?**
+- <b>Amazon Recognition</b> para entrenar productos y recibir sus etiquetas.
+- <b>Amazon S3 Bucket</b> para guardar las imágenes de los productos para el entrenamiento de Rekognition y también para almacenar imágenes de los productos capturadas por el usuario.
+- <b>Amazon API Gateway</b>
+  - para hacer una solicitud PUT cuando el usuario captura una foto de un producto que se carga en el S3 bucket.
+  - para hacer una solicitud GET y recibir la etiqueta precedida de la imagen capturada usando el modelo entrenado con Rekognition.
+- <b>Amazon Polly</b>
+  - para repetir en voz alta una lista predefinida por el usuario.
+  - pra decir la etiqueta de un producto escaneado.
 
 ## Demo Vídeo
 
-En esta sección podréis subir o enlazar vuestra vídeo presentación. Tenéis dos opciones, **1/** incluir un enlace de YouTube donde tengáis la presentación, **2/** subir un fichero directamente a vuestro repositorio. A continuación, os mostramos los pasos para subir el vídeo:
+Dale click a la imagen abajo para ver la presentación en video.
 
-1.      Una vez creado el repositorio en vuestro fichero README.md, hacéis Click en el icono lápiz.
-
-![Screenshot 2023-05-08 at 11 53 05](https://user-images.githubusercontent.com/28776392/236794134-37b49eaf-b091-4e9c-a0d1-759f89679efc.png)
-
-
-2.      Y en la parte inferior de la ventana podréis hacer Click y subir ficheros con un tamaño máximo de 10MB.
-
-![Screenshot 2023-05-08 at 11 53 14](https://user-images.githubusercontent.com/28776392/236794175-b6231532-6c78-428c-a5be-2781430053b9.png)
-
-3.      Una vez se ha subido el vídeo os aparecerá en el fichero README.md. Si excedéis el tamaño permitido (10MB) podéis referencia un enlace de Youtube para que el jurado pueda valorar vuestra presentación.
-
+[![Mira la presentación en video](https://github.com/thelearner411/MDM/blob/dev/assets/MDM-video-screenshot.png)](https://www.youtube.com/watch?v=yB8JMReQRIU "MDM - Presentación en Video")
 
 
 ## Team Members
 
-Lista de los miembros del equipo e ID de correo electrónico.
- 
+Doris Menard: dorismenard@alumni.ie.edu
+
+Mateo Vizuete: mateovizuete@gmail.com
+
+Mikhaile Collins: collinsinfospot@gmail.com
