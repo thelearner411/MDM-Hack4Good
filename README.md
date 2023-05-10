@@ -4,7 +4,9 @@
 
 ## Descripción del Proyecto
 
-Mejor de Mira es una aplicación móvil para Android que ayuda a las personas personas con discapacidad visual a navegar por los supermercados con la asistencia de servicios de voz.
+Mejor de Mira es una aplicación de móvil serverless para Android que facilita la compra en supermercados o en grandes superficies para personas con ceguera o deficiencia visual en el proceso de compra. La aplicación permite mediante comandos de voz, navegación auditiva, reconocimiento de productos y una forma segura y rápida para finalizar los pagos en tienda. Después de pagar, nuestro cliente pasará por caja para validar el pago finalizado y embolsar sus productos (o mandarlos a sus domicilios).
+
+La combinación de estos servicios permite a nuestro público, localizar y escanear productos en los supermercados para saber exactamente que tienen en la mano o donde se encuentran en las tiendas, siempre explicando todo en voz alta.
 
 <img src="https://github.com/thelearner411/MDM-Hack4Good/blob/dev/mas_de_mira/assets/mejor-de-mira-screen.png" alt="Mejor de Mira Screen" style="display: block; margin: auto;"/>
 
