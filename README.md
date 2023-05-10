@@ -1,5 +1,7 @@
 # Hackathon For Good: La Región de AWS en España al Servicio de la Sociedad
 
+# Mejor de Mira - MDM
+
 ## Descripción del Proyecto
 
 Mejor de Mira es una aplicación móvil para Android que ayuda a las personas personas con discapacidad visual a navegar por los supermercados con la asistencia de servicios de voz.
@@ -8,20 +10,11 @@ Mejor de Mira es una aplicación móvil para Android que ayuda a las personas pe
 
 ## Diagrama de Arquitectura
 
-Mejor de Mira fue programado en el lenguaje Dart usando el SDK de Flutter.
-
-En esta sección podéis realizar una descripción más detallada de vuestra aplicación/solución, indicando el caso de uso, los pros y contras de vuestra implementación, etc.
-
-Adjuntar una imagen del diagrama de arquitectura de la solución.
+<img src="https://github.com/thelearner411/MDM-Hack4Good/blob/dev/assets/MDM-arquitectura.png" alt="Diagrama de Arquitectura" style="display: block; margin: auto;"/>
 
 ## Descripción Técnica
 
-## Lenguaje de Programación
-
-Mejor de Mira fue programado en el lenguaje Dart usando el SDK de Flutter.
-
-
-## Los Servicios de AWS
+La aplicacion de móvil "Mejor de Mira" fue programada en el lenguaje Dart usando el SDK de Flutter.
 
 Utilizamos varios servicios de AWS para facilitar el proceso:
 
