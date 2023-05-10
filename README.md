@@ -6,7 +6,7 @@
 
 Mejor de Mira es una aplicación móvil para Android que ayuda a las personas personas con discapacidad visual a navegar por los supermercados con la asistencia de servicios de voz.
 
-<img src="https://github.com/thelearner411/MDM/blob/main/mas_de_mira/assets/mejor-de-mira-screen.png" alt="Mejor de Mira Screen" style="display: block; margin: auto;"/>
+<img src="https://github.com/thelearner411/MDM-Hack4Good/blob/dev/mas_de_mira/assets/mejor-de-mira-screen.png" alt="Mejor de Mira Screen" style="display: block; margin: auto;"/>
 
 ## Diagrama de Arquitectura
 
@@ -31,7 +31,7 @@ Utilizamos varios servicios de AWS para facilitar el proceso:
 
 Dale click a la imagen abajo para ver la presentación en video.
 
-[![Mira la presentación en video](https://github.com/thelearner411/MDM/blob/dev/assets/MDM-video-screenshot.png)](https://www.youtube.com/watch?v=yB8JMReQRIU "MDM - Presentación en Video")
+[![Mira la presentación en video](https://github.com/thelearner411/MDM-Hack4Good/blob/dev/assets/MDM-video-screenshot.png)](https://www.youtube.com/watch?v=yB8JMReQRIU "MDM - Presentación en Video")
 
 
 ## Team Members
